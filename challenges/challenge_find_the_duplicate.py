@@ -1,14 +1,10 @@
 def find_duplicate(nums):
-    if len(nums) <= 1:
-        return False
-
-        for num in nums:
-            if not isinstance(num, int) or num < 1:
-                return False
-
-        num_duplicate_counter = nums.count(num)
-
-        if num_duplicate_counter > 1:
-            return num
+    nums.sort()
+    for index, num in enumerate(nums):
+        try:
+            if int(num) == nums[index + 1] and num >= 0:
+                return num
+        except (IndexError, ValueError):
+            return False
 
     return False
