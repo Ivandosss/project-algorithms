@@ -1,7 +1,3 @@
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do
-Manual da Pessoa Estudante da Trybe.
 
 # Boas vindas ao repositório do projeto de Algorithms!
 
@@ -15,14 +11,8 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Boas vindas ao repositório do projeto de Algorithms!](#boas-vindas-ao-repositório-do-projeto-de-algorithms)
 - [Sumário](#sumário)
 - [Habilidades](#habilidades)
-  - [Entregáveis](#entregáveis)
-    - [⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️](#️-é-importante-que-seus-arquivos-tenham-exatamente-estes-nomes-️)
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
-    - [Data de Entrega](#data-de-entrega)
-  - [Instruções para entregar seu projeto:](#instruções-para-entregar-seu-projeto)
-    - [ANTES DE COMEÇAR A DESENVOLVER:](#antes-de-começar-a-desenvolver)
-    - [Durante o desenvolvimento](#durante-o-desenvolvimento)
   - [Linter](#linter)
   - [Testes](#testes)
   - [Requisitos do projeto](#requisitos-do-projeto)
@@ -32,9 +22,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - [Requisitos bônus:](#requisitos-bônus)
       - [4 - Encontrando números repetidos (Algoritmo de busca)](#4---encontrando-números-repetidos-algoritmo-de-busca)
       - [5 - Palíndromos (Iteratividade)](#5---palíndromos-iteratividade)
-    - [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
-    - [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos Finais](#avisos-finais)
 
     `Requisitos obrigatórios:`
     - [1 - Número de estudantes estudando no mesmo horário (Algoritmo de busca)](#1---número-de-estudantes-estudando-no-mesmo-horário-algoritmo-de-busca)
@@ -65,19 +52,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - Algoritmos de ordenação e algoritmos de busca
 
 ---
-
-## Entregáveis
-
-Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório. Este _Pull Request_ deverá conter os arquivos `challenge_anagrams.py`, `challenge_find_the_duplicate.py`, `challenge_palindromes_iterative.py`, `challenge_palindromes_recursive.py` e `challenge_study_schedule.py`, que conterão seu código `Python`, respectivamente.
-
-### ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
-
-Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a monitoria.
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
----
-
 ## O que deverá ser desenvolvido
 
 Para fixar os conteúdos de algoritmos e estrutura de dados vistos até agora, você fará um projeto que tem como principal objetivo resolver problemas e otimizar algoritmos do tipo que aparecem em inúmeros processos de entrevista por _whiteboard_ e que vão acelerar muito a sua capacidade de resolver problemas!
@@ -146,89 +120,7 @@ Para executar cada arquivo separadamente, execute o comando:
 ```bash
 $ python3 nome_do_arquivo.py
 ```
-
 ---
-
-### Data de Entrega
-
-  - Serão `2` dias de projeto.
-  - Data de entrega para avaliação final do projeto: `02/05/2022 14:00`.
-
----
-
-## Instruções para entregar seu projeto:
-
-### ANTES DE COMEÇAR A DESENVOLVER:
-
-### Recomendações
-- **⚠ Para o desenvolvimento deste projeto recomendamos o uso da versão 3.8 ou 3.9 da linguagem Python. Para saber a versão que está configurada em seu dispositivo execute o comando `python3 -V` em seu terminal. Para mais detalhes relacionados a configuração do ambiente Python consulte o nosso [guia de configuração de ambiente](https://app.betrybe.com/course/real-life-engineer/python).**
-
-1. Clone o repositório
-
-- `git clone https://github.com/tryber/sd-013-c-project-algorithms.git`.
-- Entre na pasta do repositório que você acabou de clonar:
-  - `sd-013-c-project-algorithms`
-
-2. Crie o ambiente virtual para o projeto
-
-- `python3 -m venv .venv && source .venv/bin/activate`
-
-3. Crie uma branch a partir da branch `master`
-
-- Verifique que você está na branch `master`
-  - Exemplo: `git branch`
-- Se não estiver, mude para a branch `master`
-  - Exemplo: `git checkout master`
-- Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
-  - Você deve criar uma branch no seguinte formato: `nome-github-nome-do-projeto`
-  - Exemplo: `git checkout -b exemplo-project-algorithms`
-
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-- Verifique que as mudanças ainda não estão no _stage_
-  - Exemplo: `git status` (deve aparecer listada a pasta _exemplo_ em vermelho)
-- Adicione o novo arquivo ao _stage_ do Git
-  - Exemplo:
-    - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-    - `git status` (deve aparecer listado o arquivo _exemplo/README.md_ em verde)
-- Faça o `commit` inicial
-  - Exemplo:
-    - `git commit -m 'iniciando o projeto algorithms'` (fazendo o primeiro commit)
-    - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-- Usando o exemplo anterior: `git push -u origin exemplo-project-name`
-
-6. Crie um novo `Pull Request` _(PR)_
-
-- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-013-c-project-algorithms/pulls)
-- Clique no botão verde _"New pull request"_
-- Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-- Clique no botão verde _"Create pull request"_
-- Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-- **Não se preocupe em preencher mais nada por enquanto!**
-- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-013-c-project-algorithms/pulls) e confira que o seu _Pull Request_ está criado
-
----
-
-### Durante o desenvolvimento
-
-* ⚠ **PULL REQUESTS COM ISSUES NO LINTER NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-
----
-
 ## Linter
 
 Para garantir a qualidade do código, vamos utilizar neste projeto o linter `Flake8`.
@@ -505,38 +397,3 @@ Resolva o mesmo problema, apresentado no [requisito dois](####-2---Palíndromos-
 - 5.3 - Retorne `False` se nenhuma palavra for passada como parâmetro, executando uma função iterativa
 
 - 5.4 - Execute a função, somando 10.000 execuções para uma entrada pequena, em menos que 0.005s (tempo da execução do avaliador no Pull Request)
-
----
-
-### Depois de terminar o desenvolvimento
-
-Para **"entregar"** seu projeto, siga os passos a seguir:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-013-c`
-
-Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-⚠ Lembre-se que garantir que todas as _issues_ comentadas pelo **Lint** estão resolvidas! ⚠
-
----
-
-### Revisando um pull request
-
-À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests dos seus colegas. Fiquem atentos às mensagens do "Pull Reminders" no Slack!
-
-Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
-
----
-
-# Avisos Finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
-
----
